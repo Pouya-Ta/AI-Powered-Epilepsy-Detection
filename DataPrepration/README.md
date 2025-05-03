@@ -46,6 +46,3 @@ Install required packages:
 ```bash
 pip install numpy scipy pandas mne pywt
 ````
-
-```
-```
