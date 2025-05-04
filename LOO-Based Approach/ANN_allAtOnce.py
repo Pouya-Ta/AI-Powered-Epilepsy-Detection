@@ -181,11 +181,11 @@ for filename in os.listdir(data_dir):
             plt.close()
 
             print(
-                f"✅ {patient_id} | Activation={act_fn} | Test Acc={test_acc:.2f} | F1={f1:.2f}"
+                f" {patient_id} | Activation={act_fn} | Test Acc={test_acc:.2f} | F1={f1:.2f}"
             )
 
 # === Save all results ===
 pd.DataFrame(results).sort_values(["Patient", "Activation"]).to_csv(
     output_csv, index=False
 )
-print(f"\n📊 ANN TensorFlow results saved to: {output_csv}")
+print(f"\n ANN TensorFlow results saved to: {output_csv}")
