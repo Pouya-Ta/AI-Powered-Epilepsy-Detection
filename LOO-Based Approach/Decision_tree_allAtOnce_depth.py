@@ -158,7 +158,7 @@ for filename in os.listdir(data_dir):
             plt.close()
 
             print(
-                f"✅ Finished {patient_id} | Depth {depth}: Test Acc = {test_acc:.2f}, F1 = {f1:.2f}"
+                f" Finished {patient_id} | Depth {depth}: Test Acc = {test_acc:.2f}, F1 = {f1:.2f}"
             )
 
 
@@ -166,4 +166,4 @@ for filename in os.listdir(data_dir):
 df_results = pd.DataFrame(results)
 df_results = df_results.sort_values("Patient")
 df_results.to_csv(output_csv, index=False)
-print(f"\n📊 Summary saved to: {output_csv}")
+print(f"\n Summary saved to: {output_csv}")
