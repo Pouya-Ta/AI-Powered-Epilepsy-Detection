@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 from sklearn.feature_selection import f_classif, mutual_info_classif
 
-
+# Statistical tests in order to be applied as afunction here
 def fisher_score(X, y):
     """Computes Fisher Score for each feature."""
     unique_classes = np.unique(y)
