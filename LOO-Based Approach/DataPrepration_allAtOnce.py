@@ -3,8 +3,8 @@ import os
 import pandas as pd
 
 # Define main directory and output directory
-data_dir = r"C:\Users\Pouya\Documents\university\Bachelor - AUT\Final Project\Data Set\CSV_D"  # Change this if needed
-output_dir = r"C:\Users\Pouya\Documents\university\Bachelor - AUT\Final Project\Data Set\Nowrous\After Data Prepration"
+data_dir = r"C:\CSV_D"  # Change this based on your dir
+output_dir = r"C:\After Data Prepration" # Your ourput dir
 os.makedirs(output_dir, exist_ok=True)
 
 print("Output directory created (if not existed):", output_dir)
