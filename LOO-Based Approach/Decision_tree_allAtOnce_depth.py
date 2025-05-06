@@ -15,8 +15,8 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 
 # === Directories ===
-data_dir = r"C:\Users\Pouya\Documents\university\Bachelor - AUT\Final Project\Data Set\Pre\code\Data"
-New_dir = r"C:\Users\Pouya\Documents\university\Bachelor - AUT\Final Project\Data Set\Pre\code\DT_LOO"
+data_dir = r"C:\Data" # Input folder (the data after test modification)
+New_dir = r"C:\DT_LOO" # The output folder (which contains some other folders)
 report_dir = os.path.join(New_dir, "DecisionTree_Reports")
 cm_plot_dir = os.path.join(New_dir, "DecisionTree_Plots", "Confusion_Matrix")
 acc_plot_dir = os.path.join(New_dir, "DecisionTree_Plots", "Accuracy_Comparison")
