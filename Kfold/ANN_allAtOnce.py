@@ -104,7 +104,7 @@ for filename in os.listdir(data_dir):
             f1 = f1_score(y_test, y_pred_test, zero_division=0)
             overfit_gap = train_acc - test_acc
             report = classification_report(
-                y_test, y_pred_test, target_names=["Preictal (-1)", "Interctal (1)"]
+                y_test, y_pred_test, target_names=["Preictal (-1)", "Ictal (1)"]
             )
 
             results.append(
