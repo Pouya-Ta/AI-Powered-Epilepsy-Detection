@@ -14,12 +14,12 @@ warnings.filterwarnings("ignore", message="Scaling factor is not defined")
 random.seed(42)
 
 # Define paths
-data_folder = r"C:\Users\Pouya\Documents\university\Bachelor - AUT\Final Project\Data Set\EEG Scalp MIT\Data"  # Change to your raw data folder
-preprocessed_folder = r"C:\Users\Pouya\Documents\university\Bachelor - AUT\Final Project\Data Set\Preprocessed data"  # Preprocessed data storage
+data_folder = r"C:\Data"  # Change to your raw data folder
+preprocessed_folder = r"C:\Preprocessed data"  # Preprocessed data storage
 plots_folder = (
-    r"C:\Users\Pouya\Documents\university\Bachelor - AUT\Final Project\Data Set\Plots"
+    r"C:\Plots"
 )
-seizure_summary_csv_path = r"C:\Users\Pouya\Documents\university\Bachelor - AUT\Final Project\Data Set\EEG Scalp MIT\Data\seizure_summary.csv"  # Global CSV summary file
+seizure_summary_csv_path = r"C:\seizure_summary.csv"  # Global CSV summary file
 
 os.makedirs(preprocessed_folder, exist_ok=True)
 os.makedirs(plots_folder, exist_ok=True)
