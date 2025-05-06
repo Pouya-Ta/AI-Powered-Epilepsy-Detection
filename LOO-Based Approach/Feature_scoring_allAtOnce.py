@@ -29,8 +29,8 @@ def fisher_score(X, y):
 
 
 # --- Configurable paths ---
-input_dir = r"C:\Users\Pouya\Documents\university\Bachelor - AUT\Final Project\Data Set\Nowrous\K-FOLD\After Data Prepration K-fold"
-output_dir = r"C:\Users\Pouya\Documents\university\Bachelor - AUT\Final Project\Data Set\Nowrous\K-FOLD\After Feature Scoring K-fold"
+input_dir = r"C:\After Data Prepration" # Dir of the input data
+output_dir = r"C:\After Feature Scoring" # Dir of the output data
 os.makedirs(output_dir, exist_ok=True)
 
 print(f"Scanning input directory for train_patient_*.csv files in: {input_dir}")
