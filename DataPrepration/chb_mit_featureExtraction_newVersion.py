@@ -8,9 +8,9 @@ import re
 
 
 # Define paths
-preprocessed_folder = r"C:\Users\Pouya\Documents\university\Bachelor - AUT\Final Project\Data Set\Preprocessed data"
+preprocessed_folder = r"C:\Preprocessed data"
 output_folder = (
-    r"C:\Users\Pouya\Documents\university\Bachelor - AUT\Final Project\Data Set\CSVs_New"
+    r"C:\CSVs_New"
 )
 os.makedirs(output_folder, exist_ok=True)
 
