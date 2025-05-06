@@ -19,8 +19,8 @@ from tensorflow.keras.callbacks import EarlyStopping
 from tensorflow.keras.utils import plot_model
 
 # === Config ===
-data_dir = r"C:\Users\Pouya\Documents\university\Bachelor - AUT\Final Project\Data Set\Pre\code\Data"
-New_dir = r"C:\Users\Pouya\Documents\university\Bachelor - AUT\Final Project\Data Set\Pre\code\ANN_LOO"
+data_dir = r"Data\Dir" # Use your own direction
+New_dir = r"Data\ANN_LOO" # Use your own direction for the saved outputs
 report_dir = os.path.join(New_dir, "ANN_TF_Reports")
 cm_plot_dir = os.path.join(New_dir, "ANN_TF_Plots", "Confusion_Matrix")
 acc_plot_dir = os.path.join(New_dir, "ANN_TF_Plots", "Accuracy_Comparison")
